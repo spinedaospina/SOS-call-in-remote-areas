@@ -36,7 +36,6 @@ In this proyect we have to boards which supply different misions:
 | GND | GROUND |
 | 3V3 | 3V |
 
-ss = GPIO15, rst = GPIO16, dio0=GPIO4.
 - In the src/ folder you will find the ESP32 and the ESP8266 codes, add your WiFi ssid and password to get the ESP8266 connected. Add your cayenne my devices credentials. Upload the code to the corresponding boards. I used the arduino IDE for that process. Remember, if you use another board check the GPIO pins to SPI and the I2C.
 - Download the nRF connect app to your phone (Every BLE generic app should work, but i didn't test it).
 - Plug your ESP8266 to the power.

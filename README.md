@@ -23,7 +23,19 @@ In this proyect we have to boards which supply different misions:
 - **A free account in [Cayenne my devices](https://accounts.mydevices.com/)**. Add your device and create a dashboard with a digital widget, [docs here](https://developers.mydevices.com/cayenne/docs/getting-started/). I used the virtual chanel number 1 to the communication.
 
 ### Deployment
-- Connect your LoRa Module to the ESP8266 (Look your SPI GPIO pins), in my case ss = GPIO15, rst = GPIO16, dio0=GPIO4.
+- Connect your LoRa Module to the ESP8266 (Look your SPI GPIO pins), in my case:
+| LoRa Module | ESP8266 GPIO pins |
+|:-------------:|:-------------:|
+| MISO | GPIO12 = D6 = HMISO |
+| MOSI | GPIO13 = D7 = HMOSI |
+| SCK | GPIO14 = D5 = HSCLK |
+| NSS | GPIO15 = D8 = HCS |
+| RST | GPIO16 = D0 |
+| DIO0 | GPIO4 = D2 |
+| GND | GROUND |
+| 3V3 | 3V |
+
+ss = GPIO15, rst = GPIO16, dio0=GPIO4.
 - In the src/ folder you will find the ESP32 and the ESP8266 codes, add your WiFi ssid and password to get the ESP8266 connected. Add your cayenne my devices credentials. Upload the code to the corresponding boards. I used the arduino IDE for that process. Remember, if you use another board check the GPIO pins to SPI and the I2C.
 - Download the nRF connect app to your phone (Every BLE generic app should work, but i didn't test it).
 - Plug your ESP8266 to the power.

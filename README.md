@@ -61,4 +61,4 @@ DashBoard without SOS:
 ![](https://github.com/spinedaospina/SOS-call-in-remote-areas/blob/main/img/SOSnoactivo.jpg)
 
 Here's a video where all works!
-https://user-images.githubusercontent.com/61162136/180877320-308baae4-0120-4928-9360-f8eb882cbb0a.mp4
+![](https://user-images.githubusercontent.com/61162136/180877320-308baae4-0120-4928-9360-f8eb882cbb0a.mp4)

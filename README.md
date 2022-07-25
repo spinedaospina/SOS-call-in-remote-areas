@@ -12,6 +12,7 @@ Both boards were designed to work as a stationary devices, the first one is whos
 
 I understand that it could be helpfull a mobile device to send these messages, and the way to replicate messages in this ESP32 devices to add a lot of coverage. But this repo was intended as a weekend project to apply the knowledge of a [IoT online course](https://platzi.com/cursos/iot-protocolos/), so if you want to create a commercial device this could be a good start point, or if you are interested in learning communication protocols (LoRa, BLE and MQTT) this project is for you.
 
+![](https://github.com/spinedaospina/SOS-call-in-remote-areas/blob/main/img/BA4D5D63-AB1E-47BC-8359-059CC40B1E3F.jpg)
 
 ### Needed material
 In this proyect we have to boards which supply different misions:
@@ -58,3 +59,5 @@ DashBoard with SOS:
 
 DashBoard without SOS:
 ![](https://github.com/spinedaospina/SOS-call-in-remote-areas/blob/main/img/SOSnoactivo.jpg)
+
+![](https://github.com/spinedaospina/SOS-call-in-remote-areas/blob/main/img/img-3283_y84Ask6I.mp4)

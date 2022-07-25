@@ -52,3 +52,9 @@ In this proyect we have to boards which supply different misions:
 ![](https://github.com/spinedaospina/SOS-call-in-remote-areas/blob/main/img/IMG_3274.JPG)
 
 - If everything is ok, you will see in your online dashboard the emergency solicitation.
+
+DashBoard with SOS:
+![](https://github.com/spinedaospina/SOS-call-in-remote-areas/blob/main/img/SOSactivo.png)
+
+DashBoard without SOS:
+![](https://github.com/spinedaospina/SOS-call-in-remote-areas/blob/main/img/SOSnoactivo.jpgg)

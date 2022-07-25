@@ -18,9 +18,14 @@ In this proyect we have to boards which supply different misions:
 - **ESP8266**, this ESP receive the info sended by another board in a LoRa protocol (Long ranges, up to 30km).
 - **An ESP32 board with OLED, LoRa module, and BLE incorporated**, I used the [Heltec WiFi LoRa 32 v2](https://heltec.org/project/wifi-lora-32/ "Heltec WiFi LoRa 32 v2"). This is the board whos manage the communication between your phone and send the long distances messages.
 - **A LoRa module**, I used the SX1278 at 433MHz with the Ra-01 Ai-thinker Chip.
+
+![](https://github.com/spinedaospina/SOS-call-in-remote-areas/blob/main/img/IMG_3275.JPG)
+
 - **WiFi router where the ESP8266 will be connected.**
 - **Smarthphone**, I used an android with the [nRF Connect app](https://play.google.com/store/apps/details?id=no.nordicsemi.android.mcp&hl=es_CO&gl=US).
 - **A free account in [Cayenne my devices](https://accounts.mydevices.com/)**. Add your device and create a dashboard with a digital widget, [docs here](https://developers.mydevices.com/cayenne/docs/getting-started/). I used the virtual chanel number 1 to the communication.
+
+![](https://github.com/spinedaospina/SOS-call-in-remote-areas/blob/main/img/IMG_3276.JPG)
 
 ### Deployment
 - Connect your LoRa Module to the ESP8266 (Look your SPI GPIO pins), in my case:
@@ -41,4 +46,9 @@ In this proyect we have to boards which supply different misions:
 - Plug your ESP8266 to the power.
 - Plug your ESP32 to the power and before that, connect your phone using the app.
 - Write any value in the Unknown characteristic (UUID: f7c5104b-c698-42c9-8e76-aa421108805b), you can change this UUID using a generator as [https://www.uuidgenerator.net/](https://www.uuidgenerator.net/).
+
+![](https://github.com/spinedaospina/SOS-call-in-remote-areas/blob/main/img/IMG_3273.JPG)
+
+![](https://github.com/spinedaospina/SOS-call-in-remote-areas/blob/main/img/IMG_3274.JPG)
+
 - If everything is ok, you will see in your online dashboard the emergency solicitation.

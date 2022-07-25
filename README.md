@@ -24,6 +24,7 @@ In this proyect we have to boards which supply different misions:
 
 ### Deployment
 - Connect your LoRa Module to the ESP8266 (Look your SPI GPIO pins), in my case:
+
 | LoRa Module | ESP8266 GPIO pins |
 |:-------------:|:-------------:|
 | MISO | GPIO12 = D6 = HMISO |
